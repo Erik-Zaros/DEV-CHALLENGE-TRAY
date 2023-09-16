@@ -1,0 +1,48 @@
+[
+  {
+    "Cart": {
+      "email": "dev-challenge@tray.net.br",
+      "phone": "+5514991818766",
+      "variants_kit": "",
+      "additional_info_kit": "",
+      "price_itens_kit": "",
+      "session_id": "qami6pqhjbvgqfh7qqmh4sdud2",
+      "product_id": "457",
+      "product_name": "Roteador Tp link",
+      "quantity": "1",
+      "price": "800.00",
+      "weight": "100",
+      "date": "2023-09-08",
+      "variant_id": "0",
+      "additional_information": "",
+      "user_id": "0",
+      "customer_id": "0",
+      "user_cod": "0",
+      "hour": "12:09:06",
+      "bought_together_id": "0",
+      "product_url": {
+        "http": "http://ahsstore.commercesuite.com.br/eletronicos/roteadores/roteador-tp-link",
+        "https": "https://ahsstore.commercesuite.com.br/eletronicos/roteadores/roteador-tp-link"
+      },
+      "product_image": {
+        "http": "http://images.tcdn.com.br/img/img_prod/348113/roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg",
+        "https": "https://images.tcdn.com.br/img/img_prod/348113/roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg",
+        "thumbs": {
+          "30": {
+            "http": "http://images.tcdn.com.br/img/img_prod/348113/30_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg",
+            "https": "https://images.tcdn.com.br/img/img_prod/348113/30_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg"
+          },
+          "90": {
+            "http": "http://images.tcdn.com.br/img/img_prod/348113/90_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg",
+            "https": "https://images.tcdn.com.br/img/img_prod/348113/90_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg"
+          },
+          "180": {
+            "http": "http://images.tcdn.com.br/img/img_prod/348113/180_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg",
+            "https": "https://images.tcdn.com.br/img/img_prod/348113/180_roteador_tp_link_457_1_43dd130f1b95768621a0d6cc641b2414.jpg"
+          }
+        }
+      },
+      "kit_products": []
+    }
+  }
+]
