@@ -15,21 +15,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
 
     try {
-        // Configurações do servidor SMTP
+        
         $mail->SMTPDebug = SMTP::DEBUG_OFF;
         $mail->isSMTP();
-        $mail->Host = 'smtp.seuhost.com';  // Substitua pelo seu servidor SMTP
+        $mail->Host = 'smtp.seuhost.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'seu_email@example.com';  // Substitua pelo seu email
-        $mail->Password = 'sua_senha';  // Substitua pela sua senha
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Use ENCRYPTION_SMTPS se necessário
-        $mail->Port = 587;  // Porta do servidor SMTP
+        $mail->Username = 'seu_email@example.com'; 
+        $mail->Password = 'sua_senha'; 
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
+        $mail->Port = 587;  
 
-        // Destinatário
         $mail->setFrom('seu_email@example.com', 'Seu Nome');
-        $mail->addAddress('destinatario@example.com');  // Substitua pelo endereço do destinatário
+        $mail->addAddress('destinatario@example.com'); 
 
-        // Conteúdo do email
         $mail->isHTML(false);
         $mail->Subject = 'Formulário de Contato - ' . $nome;
         $mail->Body = "Nome: $nome\n";
